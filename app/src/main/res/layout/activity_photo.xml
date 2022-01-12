@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <Button
+        android:id="@+id/photo_activity_button_panier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="30dp"
+        android:text="Panier"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/photo_activity_button_Quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Quitter"
+        android:textStyle="bold"/>
+
+    <View
+        android:id="@+id/photo_activity_button_bar2"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_marginTop="-80dp"
+        android:layout_marginBottom="-20dp"
+        android:background="@android:color/holo_orange_dark" />
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_above="@+id/btnAction"
+        android:layout_marginTop="-420dp"
+        android:layout_marginBottom="0dp" />
+
+    <View
+        android:id="@+id/photo_activity_button_bar1"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_marginTop="-450dp"
+        android:background="@android:color/holo_orange_dark"/>
+
+
+</LinearLayout>
